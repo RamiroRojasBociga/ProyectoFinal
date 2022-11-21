@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controlador.LoginController">
+   <children>
+      <Label layoutX="58.0" layoutY="28.0" prefHeight="28.0" prefWidth="59.0" text="CORREO" />
+      <Label layoutX="58.0" layoutY="99.0" text="CONTRASEÑA" />
+      <TextField fx:id="tfCorreo" layoutX="199.0" layoutY="30.0" />
+      <TextField fx:id="tfContrasena" layoutX="199.0" layoutY="95.0" />
+      <Button fx:id="btnInicioSesion" layoutX="67.0" layoutY="188.0" mnemonicParsing="false" onAction="#iniciarSesion" text="INICIAR SESION" />
+      <CheckBox mnemonicParsing="false" text="CheckBox" />
+      <Label fx:id="welcomeText" layoutX="216.0" layoutY="143.0" prefHeight="25.0" prefWidth="100.0" />
+   </children>
+</Pane>
